@@ -176,7 +176,7 @@ section .title::after{
     font-size: 27px;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -200,9 +200,15 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.home .home-content a:hover{
-    color: crimson;
-    background: none;
+
+.home .home-content .right{
+    width: 45%;
+}
+.home .home-content .right img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 /* about section styling */
 .about .title::after{
@@ -215,7 +221,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
 }
 .about .about-content .right{
     width: 55%;
@@ -365,11 +371,12 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
-/* teams section styling */
-.teams .title::after{
+
+/* projects section styling */
+.projects .title::after{
     content: "who with me";
 }
-.teams .carousel .card{
+.projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -377,25 +384,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.projects .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+.projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.projects .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -403,7 +410,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.projects .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -415,7 +422,7 @@ section .title::after{
     width: 13px;
     margin: 0 5px;
     outline: none!important;
-    border-radius: 50%;
+    border-radius: 80%;
     border: 2px solid crimson!important;
     transition: all 0.3s ease;
 }
