@@ -1,3 +1,5 @@
 # MyPersonalWebsitePortfolio
 
-This is my current website portfolio covering my journey to becoming a software engineer :)
+This is my current website portfolio documenting my journey to becoming a software engineer :)
+
+To view my website please visit: https://vaisnavishan.github.io/MyPersonalWebsitePortfolio/
