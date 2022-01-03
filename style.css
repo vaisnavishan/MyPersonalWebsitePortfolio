@@ -376,7 +376,7 @@ section .title::after{
     width: 70%;
 }
 .skills-content .right .c::before{
-    width: 40%;
+    width: 30%;
 }
 .skills-content .right .autodesk::before{
     width: 60%;
@@ -385,7 +385,7 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .javascript::before{
-    width: 40%;
+    width: 30%;
 }
 
 /* projects section styling */
