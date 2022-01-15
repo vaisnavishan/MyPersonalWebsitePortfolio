@@ -1,4 +1,4 @@
-# To view my website please visit: https://vaisnavishan.github.io/MyPersonalWebsitePortfolio/
+## To view my website please visit: https://vaisnavishan.github.io/MyPersonalWebsitePortfolio/
 ## Table of contents
 * [Demo](#demo)
 * [About](#about)
@@ -39,7 +39,7 @@ Project is created with:
 	
 
 ## Next Steps:
-In the future, we'd like to:
+In the future, I'd like to:
 * Clean up the supbpages and make it more interactive.
 * Add more animation effects to each of the subpages content.
 
